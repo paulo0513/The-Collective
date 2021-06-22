@@ -19,8 +19,14 @@
 
 ## Overview
 
-_**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
-
+With the recent explosion in popularity, NFTs have now become hottest thing to own and create. Here at <name of app>, we believe in creating a safe space for artists and collectors alike to experience the dynamic marketplace. Maybe you're a collector bringing NFTs from a different market or an artist that wants to redefine what digital art can be. Either way, <name of app> is the most expansive collection of NFTs to date. 
+  
+As an artist, you can easily upload your NFTs to the market in seconds. As a collector, you can view the art and contact the artist for a direct sale.
+  
+Here's what you can expect from our product roadmap for the remainder of 2021:
+  - Add shopping cart functionality for a quick transaction through the site rather than contacting the artist directly.
+  - Create more categories and different NFT markets
+  - Dynamic landing page that will show you the different markets and 
 
 <br>
 
@@ -28,25 +34,23 @@ _**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum ri
 Server (Back End)
     - Have a RESTful JSON API.
     - Build a Ruby on Rails server, exposing RESTful JSON endpoints.
-        - Build a database with at least 3 tables:
-    - There must be at least 1 association between your tables. (1:m or m:m)
+        - Build a database with 3 tables: users, GIF NFTs, and comments (associations on comment table)
     - Utilize Rails to define models for interacting with the database.
-    - Implement working generic controller actions for Full CRUD (index, show, create, update,       delete) between your non-User tables
+    - Implement working generic controller actions for Full CRUD (index, show, create, update, delete) between your non-User tables.
 
 Client (Front End)
     - Have a working, interactive React app
-        - Have at least 8 separate, rendered components in an organized and understandable               React file structure.
+        - Have at least 8 separate, rendered components in an organized and understandable React file structure.
         - Utilize functional or class React components appropriately.
         - Utilize state and props in your components efficiently.
         - Use only React for DOM Manipulation.
     - Consume data from your Ruby on Rails API, and render that data in your components.
     - Utilize React Router, for client-side routing.
-    - Demonstrate Full CRUD actions ( index, show, create, update, and delete ) on the front         end.
+    - Demonstrate Full CRUD actions ( index, show, create, update, and delete ) on the front end.
 
 Styling
-    - Be styled with CSS (or SCSS, if you'd prefer).
-    - Use Flexbox or Grid in your layout design.
-    - Implement 2 media queries for responsive design on 3 screen sizes (including desktop).
+    - Be styled with CSS Flexbox or Grid
+    - Implement 2 media queries for responsive design: desktop (default), tablet, and mobile.
 
 <br>
 
@@ -70,7 +74,7 @@ Styling
 
 #### Component Tree
 
-
+https://i.imgur.com/cju9Xe7.png
 
 #### Component Architecture
 
@@ -100,8 +104,6 @@ src
 | Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
 
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
-
 <br>
 
 ### Server (Back End)
@@ -116,7 +118,10 @@ https://i.imgur.com/ORdCDDr.png
 
 ## Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
+- Landing Page with carousel of images and brand
+- Add a filter table so users can assign NTFs a category
+  - create clickable filters for easy navigation
+- Add shopping cart
 
 ***
 
