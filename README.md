@@ -117,9 +117,7 @@ src
     |__ SignUp/
         |__ SignUp.jsx
         |__ SignUp.css
-    |__ AddComment/
-        |__ AddComment.jsx
-        |__ AddComment.css
+
 
 ```
 
