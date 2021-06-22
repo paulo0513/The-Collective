@@ -19,7 +19,7 @@
 
 ## Overview
 
-With the recent explosion in popularity, NFTs have now become hottest thing to own and create. Here at <name of app>, we believe in creating a safe space for artists and collectors alike to experience the dynamic marketplace. Maybe you're a collector bringing NFTs from a different market or an artist that wants to redefine what digital art can be. Either way, <name of app> is the most expansive collection of NFTs to date. 
+With the recent explosion in popularity, NFTs have now become hottest thing to own and create. Here at (name of app), we believe in creating a safe space for artists and collectors alike to experience the dynamic marketplace. Maybe you're a collector bringing NFTs from a different market or an artist that wants to redefine what digital art can be. Either way, (name of app) is the most expansive collection of NFTs to date. 
   
 As an artist, you can easily upload your NFTs to the market in seconds. As a collector, you can view the art and contact the artist for a direct sale.
   
@@ -70,7 +70,7 @@ Styling
 
 #### Wireframes
 
-
+https://www.figma.com/file/B48oVwWCJlialLSqEhkbxv/Project-4?node-id=0%3A1
 
 #### Component Tree
 
@@ -83,14 +83,46 @@ https://i.imgur.com/cju9Xe7.png
 ``` structure
 
 src
-|__ assets/
-      |__ fonts
-      |__ graphics
-      |__ images
-      |__ mockups
+|__ App.js
 |__ components/
-      |__ Header.jsx
+     |__ Card/
+          |__Card.jsx
+          |__Card.css
+     |__Layout/
+          |__Layout.jsx
+          |__Layout.css
+     |__ Comments/
+         |__Comments.jsx
+         |__Comments.css
+|__ containers/  
+    |__MainContainer.jsx   
+    |__MainContainer.css
 |__ services/
+    |__apiCongig.js
+    |__auth.js
+    |__nfts.js
+|__ screens/
+    |__ EditNFT/
+        |__ EditNFT.jsx
+        |__ EditNFT.css
+    |__ PostNFT/
+        |__ PostNFT.jsx
+        |__ PostNFT.css
+    |__ NFTs/
+        |__ NFTs.jsx
+        |__ NFTs.css
+    |__ EditNFT/
+        |__ EditNFT.jsx
+        |__ EditNFT.css
+    |__ SignIn/
+        |__ SignIn.jsx
+        |__ SignIn.css
+    |__ SignUp/
+        |__ SignUp.jsx
+        |__ SignUp.css
+    |__ AddComment/
+        |__ AddComment.jsx
+        |__ AddComment.css
 
 ```
 
@@ -101,6 +133,20 @@ src
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
 | Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
+| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
 
@@ -122,13 +168,13 @@ https://i.imgur.com/ORdCDDr.png
 - Add a filter table so users can assign NTFs a category
   - create clickable filters for easy navigation
 - Add shopping cart
+- Add rating system
 
 ***
 
 ## Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+
 
 ## Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution.
