@@ -58,9 +58,10 @@ Styling
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      Ruby on Rails | _A JavaScript library for building user interfaces_ |
-|   React Router   | _A collection of navigational components that compose declaratively with your application_ |
-|     Ruby on Rails      | _Lorem ipsum dolor sit amet, consectetur._ |
+|  Ruby on Rails   |  A model-view-controller server-side web application framework |
+|  PostgreSQL      |  An open-source relational database management system |
+|  React           |  A JavaScript library for building user interfaces |
+|  React Router    |  A collection of navigational components that compose declaratively within the application |
 
 <br>
 
