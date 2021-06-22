@@ -1,8 +1,4 @@
-# PROJECT 4 README <!-- omit in toc -->
-
-> The Project Planning section **should be completed** for your project pitch with instructors.
->
-> To ensure correct Markdown, copy and paste the raw template code into your project repo README file. Remove ALL template instructions and replace with your project details.
+# PROJECT 4 README (STILL THINKING OF NAME) <!-- omit in toc -->
 
 - [Overview](#overview)
 - [MVP](#mvp)
@@ -29,20 +25,28 @@ _**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum ri
 <br>
 
 ## MVP
+Server (Back End)
+    - Have a RESTful JSON API.
+    - Build a Ruby on Rails server, exposing RESTful JSON endpoints.
+        - Build a database with at least 3 tables:
+    - There must be at least 1 association between your tables. (1:m or m:m)
+    - Utilize Rails to define models for interacting with the database.
+    - Implement working generic controller actions for Full CRUD (index, show, create, update,       delete) between your non-User tables
 
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
+Client (Front End)
+    - Have a working, interactive React app
+        - Have at least 8 separate, rendered components in an organized and understandable               React file structure.
+        - Utilize functional or class React components appropriately.
+        - Utilize state and props in your components efficiently.
+        - Use only React for DOM Manipulation.
+    - Consume data from your Ruby on Rails API, and render that data in your components.
+    - Utilize React Router, for client-side routing.
+    - Demonstrate Full CRUD actions ( index, show, create, update, and delete ) on the front         end.
 
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
-
-<br>
-
-### Goals
-
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+Styling
+    - Be styled with CSS (or SCSS, if you'd prefer).
+    - Use Flexbox or Grid in your layout design.
+    - Implement 2 media queries for responsive design on 3 screen sizes (including desktop).
 
 <br>
 
@@ -52,11 +56,9 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
+|      React       | _A JavaScript library for building user interfaces_ |
+|   React Router   | _A collection of navigational components that compose declaratively with your application_ |
+|     Ruby on Rails      | _Lorem ipsum dolor sit amet, consectetur._ |
 
 <br>
 
@@ -64,37 +66,11 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
-![Dummy Link](url)
-
-- Desktop Landing
-
-![Dummy Link](url)
-
-- Desktop Hero
-
-![Dummy Link](url)
-
-- Resource Index
-
-![Dummy Link](url)
-
-- Resource Show
-
-![Dummy Link](url)
-
-- Tablet Resource Index
-
-![Dummy Link](url)
-
-- Mobile Resource Index
 
 #### Component Tree
 
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. Include a link to your component tree
 
-[Component Tree Sample](https://gist.git.generalassemb.ly/davidtwhitlatch/414107e2560ae0bb65e233570f2fe056#file-component-tree-png)
 
 #### Component Architecture
 
@@ -132,9 +108,8 @@ src
 
 #### ERD Model
 
-> Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
+https://i.imgur.com/ORdCDDr.png
 
-[ERD Sample](https://drive.google.com/file/d/1kLyQTZqfcA4jjKWQexfEkG2UspyclK8Q/view)
 <br>
 
 ***
