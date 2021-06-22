@@ -166,7 +166,8 @@ https://i.imgur.com/ORdCDDr.png
 
 ## Post-MVP
 
-- Landing Page with carousel of images and brand
+- Landing Page with carousel of images and branding (new screen)
+- Resource page to educate users on NFT (new screen)
 - Add a filter table so users can assign NTFs a category
   - create clickable filters for easy navigation
 - Add shopping cart
