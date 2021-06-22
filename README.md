@@ -56,11 +56,9 @@ Styling
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
-
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _A JavaScript library for building user interfaces_ |
+|      Ruby on Rails | _A JavaScript library for building user interfaces_ |
 |   React Router   | _A collection of navigational components that compose declaratively with your application_ |
 |     Ruby on Rails      | _Lorem ipsum dolor sit amet, consectetur._ |
 
@@ -77,8 +75,6 @@ https://www.figma.com/file/B48oVwWCJlialLSqEhkbxv/Project-4?node-id=0%3A1
 https://i.imgur.com/cju9Xe7.png
 
 #### Component Architecture
-
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
 
 ``` structure
 
@@ -132,23 +128,28 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Project Proposal    |    H     |     8 hrs      |     0 hrs     |     TBD     |
+| Backend Framework   |    H     |     2 hrs      |     0 hrs     |     TBD     |
+| Model Setup         |    H     |     1 hrs      |     0 hrs     |     TBD     |
+| Route Setup         |    H     |     1 hrs      |     0 hrs     |     TBD     |
+| Controller Setup    |    H     |     2 hrs      |     0 hrs     |     TBD     |
+| Authentication      |    H     |     3 hrs      |     0 hrs     |     TBD     |
+| Cors Setup          |    H     |     1 hrs      |     0 hrs     |     TBD     |
+| Seed Data           |    H     |     3 hrs      |     0 hrs     |     TBD     |
+| Backend Testing     |    H     |     1 hrs      |     0 hrs     |     TBD     |
+| Frontend Framework  |    H     |     2 hrs      |     0 hrs     |     TBD     |
+| Main Container/App.jsx |    H     |     2 hrs      |     0 hrs     |     TBD     |
+| Services            |    H     |     3 hrs      |     0 hrs     |     TBD     |
+| Home Screen - all NFTs |    H     |     2 hrs      |     0 hrs     |     TBD     |
+| Detail Screen       |    H     |     2 hrs      |     0 hrs     |     TBD     |
+| Edit Screen         |    H     |     2 hrs      |     0 hrs     |     TBD     |
+| Sign In Screen      |    H     |     2 hrs      |     0 hrs     |     TBD     |
+| Sign Up Screen      |    H     |     2 hrs      |     0 hrs     |     TBD     |
+| NFT Cards           |    H     |     2 hrs      |     0 hrs     |     TBD     |
+| Layout/Nav          |    H     |     2 hrs      |     0 hrs     |     TBD     |
+| CSS                 |    H     |     16 hrs      |     0 hrs     |     TBD     |
+| Deployment          |    H     |     2 hrs      |     0 hrs     |     TBD     |
+| TOTAL               |          |     61 hrs      |     0 hrs     |     TBD     |
 
 <br>
 
